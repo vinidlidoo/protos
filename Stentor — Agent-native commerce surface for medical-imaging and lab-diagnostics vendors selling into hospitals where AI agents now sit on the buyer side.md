@@ -76,11 +76,11 @@ What would push us toward A: a warm intro into Siemens Healthineers' digital tea
 
 ## How it could make money
 
-| Layer                                             | Price range            | Comparable                                                                                                                                                                                |
-| ------------------------------------------------- | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Layer 1 — Vendor SaaS subscription**            | $200k–$500k/yr per org | [Mirakl Catalog Manager](https://www.mirakl.com/products/mirakl-catalog-manager) (enterprise B2B catalog tier, custom-quoted in the same range)                                          |
-| **Layer 2 — Per-quote-spawned consumption**      | $5–$50 per agent-spawned quote | [Stripe agentic commerce](https://docs.stripe.com/agentic-commerce) machine-payment + per-transaction model, applied to high-ticket capital-equipment quote events                |
-| **Layer 3 (later) — GHX/Vizient-side dealer revshare** | undefined % of agent-routed deal value | [GHX](https://www.ghx.com/) and exchange-side transaction-fee model (template — actual share TBD with first dealer partner)                                                  |
+| Layer                                                  | Price range                            | Comparable                                                                                                                                                         |
+| ------------------------------------------------------ | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Layer 1 — Vendor SaaS subscription**                 | $200k–$500k/yr per org                 | [Mirakl Catalog Manager](https://www.mirakl.com/products/mirakl-catalog-manager) (enterprise B2B catalog tier, custom-quoted in the same range)                    |
+| **Layer 2 — Per-quote-spawned consumption**            | $5–$50 per agent-spawned quote         | [Stripe agentic commerce](https://docs.stripe.com/agentic-commerce) machine-payment + per-transaction model, applied to high-ticket capital-equipment quote events |
+| **Layer 3 (later) — GHX/Vizient-side dealer revshare** | undefined % of agent-routed deal value | [GHX](https://www.ghx.com/) and exchange-side transaction-fee model (template — actual share TBD with first dealer partner)                                        |
 
 **Honest caveat.** Layer 3 depends on Stentor reaching enough agent-side traffic to be worth a revenue share to GHX or a regional dealer; this is a 2027+ play and could be commoditized if GHX builds equivalent agent-routing in-house. Layers 1+2 stand alone.
 
