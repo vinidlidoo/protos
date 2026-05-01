@@ -5,7 +5,7 @@ aliases:
 tags:
   - proto
 type: proto
-status: drafted
+status: shortlisted
 created: 2026-04-30
 origin: ""
 proto_generator:
@@ -126,7 +126,29 @@ Honest caveat on the business-model risk: the outcome-pricing layer (Layer 3) is
 
 ## Vincent's Feedback
 
-*(Vincent fills this in after reading. Reactions, decisions, next moves.)*
+**Disposition: shortlisted.** The seam in the market is real (Pacvue=ads, Profitero=analytics, Productsup=feeds, Pentaleap=retailer-side — nobody owns the category-manager seat), the wedge progression is well-staged, and the day-to-day work (merchandising / category management / DTC tooling) does *not* trigger the Amazon Fashion fit burnout — the kill heuristic on that space applies specifically to fit/sizing work, not to broader fashion or e-commerce. Warm to revisiting.
+
+**Reframe to carry forward — buyer is "brand with ≥1 existing category manager," not "$5-25M DTC with zero cat-mgr."** Pitch is "let your existing manager(s) take more categories" — productivity multiplier, not a replacement for headcount that doesn't exist. Implications:
+
+- ACV ceiling moves from ~$96K (Layer 2 SaaS at the original buyer) to plausibly $200-500K (displacing real existing spend)
+- Sells into an existing budget line rather than a zero-spend net-new category
+- Anti-customer list flips: the original proto's "enterprise CPGs already running Profitero+ + WPP Media" become target customers, with Steward as the multiplier on the team they already have
+- Defuses the Shopify-first-party-AI-merchant risk — that risk applied to the small-DTC end of the market; brands with cat-mgmt teams run cross-marketplace + retail partner relationships, not just Shopify
+- Pitch is a tool, not a P&L-owning replacement (matches buyer mental model; investor-shaped "agent owns merchandising P&L" framing is for later, not for the wedge)
+
+**What still works (from the original draft):**
+
+- "Category manager was the human integration point" insight — explains why no incumbent owns this seam and why none will eat it from below.
+- Founder-fit (Amazon Fashion category-management muscle, chief-of-staff merchandising-at-scale exposure) maps directly to the buyer language.
+- A → B → C wedge progression and the 2-week experiment design (live digest on screen, mark each PR red/yellow/green) are unusually crisp.
+- Bar to clear: "as good as a human category manager at a fraction of the cost." Confident this is achievable.
+
+**Open questions to resolve before re-drafting:**
+
+1. **Cross-channel demand fragmentation.** Biggest uncertainty on this bet. How fragmented is the actual buyer's channel mix? If 80% of merchandising P&L still lives on Amazon for the target buyer, the cross-channel pitch is decoration, not the wedge. Needs a research probe before locking the positioning.
+2. **Layer 3 attribution wall.** % of GP uplift hits the same wall that Pacvue/Perpetua retreated from — too many confounds (seasonality, ad spend, supply, viral moments) for clean attribution. Under the reframe this matters less because Layer 2 at $200-500K ACV is a real SaaS business without Layer 3 — but the venture-scale "category-defining" upside still lives in outcome pricing, and that path is walled. Worth thinking through whether the bet is venture-shaped or a smaller business under the reframed positioning.
+
+**Carrying forward as a candidate to explore further; not a current build.**
 
 ## Related
 

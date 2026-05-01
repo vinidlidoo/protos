@@ -11,7 +11,7 @@ aliases:
 tags:
   - proto
 type: proto
-status: drafted
+status: passed
 created: 2026-04-30
 origin: ""
 ---
@@ -106,7 +106,10 @@ What pushes us toward A vs B: whether the first three design partners describe t
 
 ## Vincent's Feedback
 
-*(Vincent fills this in after reading. Reactions, decisions, next moves.)*
+1. **Kill, not pass-on-mission. Granola has eaten this thesis with a smarter wedge.** Granola raised $125M Series C at $1.5B (March 2026), explicitly framing themselves as a professional context layer with meetings as the wedge, has shipped MCP server + cross-meeting Chat + Personal/Enterprise APIs + Spaces, and is going firm-scoped to solve the governance landmine. Lodestar as proposed is 3 years late with a worse wedge and no capital advantage. Future protos should screen against active unicorns with the same thesis before drafting — the writer cited Granola but didn't recognize it as the dispositive competitor.
+2. **Wedge-choice principle: pick a single high-signal source with clean consent gating, not heterogeneous fusion from day one.** Granola's "press record on meetings" is a discrete trust ask; Lodestar's "ingest your email + Slack + Notion + CRM + Substack" is a compounding one. The single-source wedge is also a sharper artifact for design-partner conversations. Future protos in personal-AI/memory categories should be challenged on "what's the single highest-signal source you'd ship first" before approving a fusion architecture.
+3. **The "who owns the graph when the partner switches firms" question is load-bearing for any personal-context-graph idea targeting employees.** Granola is solving this via firm-scoped Spaces + Enterprise tier. Top-3 risk that was absent from the proto's "what we don't know yet."
+4. **Granola is the canonical comp for any "professional context layer" proto from now on, not Affinity.** Affinity is the firm-CRM incumbent with a defensive MCP; Granola is the context-layer-native unicorn with the offensive roadmap. Future protos in this category should benchmark trust-ask, wedge, pricing, and governance posture against Granola.
 
 ## Related
 
