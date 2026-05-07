@@ -15,7 +15,6 @@ proto_generator:
   repo_sha: dc1c7d3
   generated_at: 2026-04-28T20:00:47+00:00
 ---
-
 # Veracart — Cryptographic product cards that AI shopping agents can actually trust
 
 **Wedge:** A signed, agent-readable product attestation feed for mid-market apparel brands selling into ChatGPT / Visa Intelligent Commerce / Mastercard Agent Pay — starting with the four claims agents most want to trust: price, stock, materials, and image provenance.
@@ -150,5 +149,5 @@ Built solo by Vincent in ~5 working days using coding agents. Stack: Cloudflare 
 
 ## Related
 
-- [[Study/Aave Deep-Dive]]
+- [[Aave Fundamentals]]
 - [[Templates/proto]]
