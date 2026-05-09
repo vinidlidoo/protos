@@ -97,20 +97,24 @@ The moat shifts over time:
 4. **Recorded sessions capture enough signal to train per-guide cloned-instructors.** Pressured if first-person video at hand-distance in low-light kitchens or outdoor gardens is too motion-blurred for fine-grained correction labels, or end-of-session ratings are too noisy. *Lever:* dual-stream capture (glasses + wide-angle bench camera) on activities where hand-distance video is the bottleneck; per-correction rating UX rather than session-only.
 5. **The window before incumbents (Apple/Meta/Google) match this architecture holds ~18 months.** Pressured if an OEM ships a native "Find an Expert" surface in 6–12 months, real-time generative video makes fake-shokunin indistinguishable on lens before we have reputation density, or smart-glasses adoption stalls and the window stretches past 36 months (urgency premium evaporates). *Lever:* lean on per-guide brands + consented clones as the actual moat. The marketplace surface itself is commoditizable. Verified-human-on-both-sides at launch (World ID, ~18M verified, rolling out across 3,000 Japanese locations via MEDIROM ([World](https://world.org/blog/announcements/world-id-full-stack-proof-of-human), [MEDIROM](https://www.globenewswire.com/news-release/2026/01/23/3225091/0/en/MEDIROM-Forms-New-Special-Mission-Team-to-Drive-World-ID-Adoption-Across-3-000-Locations-Through-Partnership-with-Tools-for-Humanity.html))) anchors trust against deepfakes and first-party imitation alike. Plan capital around the tight assumption; corpus quality compounds if the window turns out wider.
 
-## V0 experiment
+## v0.0 experiment
 
-**Load-bearing assumption to test:** does first-person view of the learner's hands materially change what a remote teacher can correct, *and* does a fluid shift between hands-view and face-view feel natural enough to support both demonstration and exposition? Translation, marketplace, payment, and supply are all downstream questions — none of them matter unless this core claim holds.
+**Load-bearing assumption to test:** does first-person view of the learner's hands materially change what a remote guide can correct, *and* does a hands-free, in-glasses POV feel natural enough to support both demonstration and exposition without breaking flow? Translation, marketplace, payment, and supply are all downstream questions.
 
-**The setup.** Each side has one phone, a forehead strap, and a counter stand. The phone starts on the stand for face-to-face setup and conversation; either party shifts it to the strap for first-person view of their own hands when the lesson calls for it; back to the stand when they want eye contact. Audio stays open continuously. This is the closest physical analog today to what Meta Ray-Ban Display will eventually do natively in glass: seamless shift between "I see your hands" and "I see your face."
+**The rig: Ray-Ban Meta Gen 2 + WhatsApp POV calls.** Two pairs of Ray-Ban Meta Gen 2 Wayfarer (~$329 each, ~$660 total). Both parties wear glasses, place a WhatsApp video call to each other, and each shares their POV camera into the call. Each holds (or props) a phone in peripheral view to see the partner's hands feed. Audio is the glasses' open-ear speakers + 5-mic array, continuous. Zero code, off-the-shelf consumer feature today: exactly the bidirectional POV experience we seek to test.
 
-**The activity.** Parallel cooking. Vincent and a friend who actually knows the technique make the same dish at the same time, in their respective kitchens. The friend isn't only lecturing; they're cooking alongside, correcting organically when something on Vincent's feed looks off. Recipe is one Vincent genuinely doesn't know.
+**The activity:** Parallel cooking. A guide who actually knows the technique and a learner who doesn't make the same dish at the same time, in their respective kitchens. The guide isn't only lecturing; they're cooking alongside, correcting organically when something on the learner's POV feed looks off. Recipe is one the learner genuinely doesn't know.
 
-**What we instrument.** Every correction the friend makes, time-stamped, with a note on what they saw on the feed that triggered it. A photographable physical outcome (cut precision, plate, dough shape) to judge the dish against at the end.
+**What we instrument.** Every correction the guide makes, time-stamped, with a note on what they saw on the learner's feed that triggered it. A photographable physical outcome (cut precision, plate, dough shape) to judge the dish against at the end. Plus a separate ergonomic note: count the times either party manually re-orients their head to "frame" their hands for the partner.
 
 **The question at session end** (asked verbatim, recorded):
 *"What did you see and correct from my hands-view that a held phone or a YouTube-style one-way video wouldn't have let you?"*
 
-**Pass:** friend names ≥3 specific corrections that first-person view enabled: concrete moments, not vibes.
-**Fail:** friend can't name first-person-enabled corrections, or names only generic ones ("I could see better").
-**Effort:** ~2 days end to end: source gear, run one session, write up.
-**If V0 passes,** V1 layers translation (GPT-Realtime-Translate) with a real Japanese guide.
+**Pass:** guide names ≥3 specific corrections that first-person view enabled: concrete moments, not vibes.
+
+**If v0.0 passes**, next experiments:
+- **v0.1**: add live translation (GPT-Realtime-Translate) with a Japanese guide on the same rig. Tests the second load-bearing assumption, no new code.
+- **v0.2**: build a custom iOS/Android app via the Meta Wearables Device Access Toolkit. Bidirectional POV with annotations, recording, multi-party, AI-assisted correction labels.
+- **v1.0**: first prototype that's product-shaped, not assumption-shaped.
+
+**Note on hardware decision.** Ray-Ban Meta Gen 2 (no display) is sufficient through v0.x while the receiving surface is a phone. The Display model ($799 each) earns its premium when a later version wants to render the partner's view, captions, or correction overlays *into the wearer's vision*, at which point the platform decision re-opens between Display 2 and Snap Specs (consumer launch late 2026), and others (Brilliant Labs).
